@@ -1,0 +1,14 @@
+E:\VisualStudio repos\TextDungeon\TextDungeon\bin\Debug\net8.0\TextDungeon.exe
+E:\VisualStudio repos\TextDungeon\TextDungeon\bin\Debug\net8.0\TextDungeon.deps.json
+E:\VisualStudio repos\TextDungeon\TextDungeon\bin\Debug\net8.0\TextDungeon.runtimeconfig.json
+E:\VisualStudio repos\TextDungeon\TextDungeon\bin\Debug\net8.0\TextDungeon.dll
+E:\VisualStudio repos\TextDungeon\TextDungeon\bin\Debug\net8.0\TextDungeon.pdb
+E:\VisualStudio repos\TextDungeon\TextDungeon\obj\Debug\net8.0\TextDungeon.GeneratedMSBuildEditorConfig.editorconfig
+E:\VisualStudio repos\TextDungeon\TextDungeon\obj\Debug\net8.0\TextDungeon.AssemblyInfoInputs.cache
+E:\VisualStudio repos\TextDungeon\TextDungeon\obj\Debug\net8.0\TextDungeon.AssemblyInfo.cs
+E:\VisualStudio repos\TextDungeon\TextDungeon\obj\Debug\net8.0\TextDungeon.csproj.CoreCompileInputs.cache
+E:\VisualStudio repos\TextDungeon\TextDungeon\obj\Debug\net8.0\TextDungeon.dll
+E:\VisualStudio repos\TextDungeon\TextDungeon\obj\Debug\net8.0\refint\TextDungeon.dll
+E:\VisualStudio repos\TextDungeon\TextDungeon\obj\Debug\net8.0\TextDungeon.pdb
+E:\VisualStudio repos\TextDungeon\TextDungeon\obj\Debug\net8.0\TextDungeon.genruntimeconfig.cache
+E:\VisualStudio repos\TextDungeon\TextDungeon\obj\Debug\net8.0\ref\TextDungeon.dll
