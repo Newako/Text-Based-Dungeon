@@ -27,7 +27,7 @@ namespace TextDungeon
             currentPlayer.name = Console.ReadLine();
             Console.Clear();
             Console.WriteLine("You awake in a cold room. You feel heavy with every movement.");
-            Console.WriteLine("Your head hurts from trying to recall what happened.");
+            Console.WriteLine("You have a painful headache and feel heavy with every movement.");
             if (currentPlayer.name == "")
                 Console.WriteLine("You can't even remember your own name...");
             else
@@ -36,7 +36,7 @@ namespace TextDungeon
             Console.Clear();
             Console.WriteLine("You grope around in the darkness until you find a door handle. You feel some resistance");
             Console.WriteLine("as you turn the door handle, the rusty lock breaks with little effort. You see a prison guard");
-            Console.WriteLine("standing with his back facing towards you.");
+            Console.WriteLine("standing with his back facing towards you. He seems to be asleep.");
         }
 
     }

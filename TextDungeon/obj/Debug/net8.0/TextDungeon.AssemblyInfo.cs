@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TextDungeon")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be6fb124552901e1c6b3695b16f857d35c90c0c7")]
 [assembly: System.Reflection.AssemblyProductAttribute("TextDungeon")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TextDungeon")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

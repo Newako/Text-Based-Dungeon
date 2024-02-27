@@ -18,8 +18,8 @@ namespace TextDungeon
         //Encounters
         public static void FirstEcounter()
         {
-            Console.WriteLine("You throw open the door and grab a metal rusty sword while charging toward your captor.");
-            Console.WriteLine("He turns...");
+            Console.WriteLine("You try to slowly open the door without making any noise, but because of your heavy movement you accidentally push the door into the wall with a bang.");
+            Console.WriteLine("The guard awakes and turns to face you with his weapon drawn...");
             Console.ReadKey();
             Combat(false, "Guard", 1, 4);
         }
@@ -37,6 +37,13 @@ namespace TextDungeon
             Console.ReadKey();
             Combat(false, "Wizard", 4, 2);
         }
+        public static void BlueSlimeEncounter()
+        {
+            Console.Clear();
+            Console.WriteLine("You take a few steps and hear a squishing sound from under your feet. In the distance you can see a blue slime approaching you.");
+            Console.ReadKey();
+            Combat(true, "Slime", 2, 6);
+        }
 
 
 
@@ -50,6 +57,9 @@ namespace TextDungeon
                     break;
                 case 1:
                     WizardEncounter();
+                    break;
+                case 2:
+                    BlueSlimeEncounter();
                     break;
             }
         }
@@ -85,7 +95,7 @@ namespace TextDungeon
                 if(input.ToLower() == "a" || input.ToLower() == "attack")
                 {
                     //Attack
-                    Console.WriteLine("You slice your sword towards the guard with haste! As you pass, the " + n + " strikes you");
+                    Console.WriteLine("You throw a punch towards the guard with haste! As you pass, the " + n + " strikes you");
                     int damage = p - Program.currentPlayer.armorValue;
                     if(damage<0)
                         damage = 0;
@@ -97,7 +107,7 @@ namespace TextDungeon
                 else if (input.ToLower() == "d" || input.ToLower() == "defend")
                 {
                     //Defend
-                    Console.Write("As the " + n + " prepares to strike, you ready your sword to defend");
+                    Console.Write("As the " + n + " prepares to strike, you ready yourself to defend");
                     int damage = (p/4) - Program.currentPlayer.armorValue;
                     if(damage<0)
                         damage = 0;
@@ -111,7 +121,7 @@ namespace TextDungeon
                     //Run
                     if(rand.Next(0, 2) == 0)
                     {
-                        Console.WriteLine("As you sprint away from the " + n + ", its strike catches you in the back sending you sprawling onto the ground.");
+                        Console.WriteLine("As you sprint away from the " + n + ", its strike catches you in the back sending you flying onto the ground.");
                         int damage  = p - Program.currentPlayer.armorValue;
                         if (damage < 0)
                             damage = 0;
@@ -130,7 +140,7 @@ namespace TextDungeon
                     //Heal
                     if (Program.currentPlayer.potion==0)
                     {
-                        Console.WriteLine("Desperately feeling around your bag for a potion, all that you feel are empty flasks");
+                        Console.WriteLine("Desperately feeling around your bag for a potion, you mistakenly grab junk that is of no use.");
                         int damage = p - Program.currentPlayer.armorValue;
                         if (damage < 0)
                             damage = 0;
@@ -177,6 +187,9 @@ namespace TextDungeon
                     
                 case 2:
                     return "Grave robber";
+
+                case 3:
+                    return "BlueSlime";
                     
             }
             return "Human";

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\VisualStudio repos\\TextDungeon\\TextDungeon\\TextDungeon.csproj",
+      "projectUniqueName": "D:\\Github repo\\Text-Based-Dungeon\\TextDungeon\\TextDungeon.csproj",
       "projectName": "TextDungeon",
-      "projectPath": "E:\\VisualStudio repos\\TextDungeon\\TextDungeon\\TextDungeon.csproj",
+      "projectPath": "D:\\Github repo\\Text-Based-Dungeon\\TextDungeon\\TextDungeon.csproj",
       "packagesPath": "C:\\Users\\riwa8\\.nuget\\packages\\",
-      "outputPath": "E:\\VisualStudio repos\\TextDungeon\\TextDungeon\\obj\\",
+      "outputPath": "D:\\Github repo\\Text-Based-Dungeon\\TextDungeon\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\riwa8\\AppData\\Roaming\\NuGet\\NuGet.Config",

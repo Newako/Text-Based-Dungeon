@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1OTuCeawOP+oGRO3iKK9dTKBPp3nMD5nEVFBYn3uLu5ErRq+MtR3IBo84G8brD3nPnaF3iEQ40mKyTDV47D4Fg==",
+  "dgSpecHash": "oqBLpVH9bKbrgcX/3Iyx094RC74DVJQ6J+9xA9CUoAlPvMvYh9Om/EcxwKYiH+OoUxcZ4tYqDevjVVjPRQk6BQ==",
   "success": true,
-  "projectFilePath": "E:\\VisualStudio repos\\TextDungeon\\TextDungeon\\TextDungeon.csproj",
+  "projectFilePath": "D:\\Github repo\\Text-Based-Dungeon\\TextDungeon\\TextDungeon.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
